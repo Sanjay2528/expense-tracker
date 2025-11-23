@@ -1,56 +1,166 @@
-Expense Tracker (Python CLI)
-Overview
-This is a simple command-line Python application that helps you record, view, and analyze personal expenses. Users can log amounts and categories, review all entries, see total spending, and generate category-wise summaries.
+#Expense Tracker – Python Project
 
-# Features
-Add expenses with amount and category (Food/Travel/Shopping/Bills/Others)
+ #⁠Project Overview
 
-View all logged expenses
+Managing day-to-day expenses is one of the most common problems faced by students and households. People often forget how much they spend, and keeping manual notes becomes difficult.
+This project is a simple command-line Expense Tracker that allows users to record expenses, view summaries, and analyse spending patterns.
 
-Display total spending
+This project is developed as part of the Introduction to Problem Solving & Programming course to apply Python basics to a real-world scenario.
 
-Provide summary of spending per category
+⸻
 
-# Requirements
-Python 3.x (no additional libraries required)
+ #Problem Definition
 
-# Setup Instructions
-Clone the repository
+People regularly perform small cash or digital transactions, but do not have an easy way to:
+	•	Track what they spent
+	•	Categorize expenses
+	•	Calculate total spending
+	•	Analyse which category consumes more money
 
-bash
-git clone 
-Navigate to the project directory
+The absence of a simple tracking system leads to poor financial awareness.
 
-bash
-cd python-expense-tracker
-Run the application
+⸻
 
-bash
-python expense_tracker.py
-Usage
-When you run the script, you'll see the following menu:
+ #⁠Objectives
 
-# choices you get
+The main objectives of this project are:
+	•	To create a program that allows users to log daily expenses
+  
+	•	To organise expenses by categories
+  
+	•	To display total money spent
+  
+	•	To provide category-wise summaries
+  
+	•	To help users understand and manage their spending habits
+
+⸻
+
+ #⁠Features
+	•	Add new expense with amount, category and description
+  
+	•	View all logged expenses
+  
+	•	Display total expenditure
+  
+	•	Show category-wise spending summary
+  
+	•	Simple and clean command-line menu
+
+⸻
+
+ #⁠Requirements
+	•	Python 3.x
+	•	No external libraries required
+
+⸻
+
+ #Setup Instructions
+
+Clone the Repository
+
+git clone https://github.com/Sanjay2528/expense-tracker.git
+
+#Navigate into the Project Directory
+
+
+cd expense-tracker
+
+#Run the Python Program
+
+
+python expenses_tracker.py
+
+
+⸻
+
+ #⁠Folder Structure
+
+expense-tracker/
+
+│
+├── expenses_tracker.py
+
+├── README.md
+
+├── Project Report_Expense Tracker.pdf
+
+│
+├── screenshots/
+
+│     ├── screenshot1.png
+
+│     ├── screenshot2.png
+
+
+⸻
+
+ #⁠How to Use the Program
+
+After running the script, a menu will appear:
+
 ==== Expense Tracker ====
-1. Add Expense
-2. View All Expenses
-3. Total Expenses
-4. Category Summary
-5. Exit
-Select an option by entering its number.
+ 1.⁠ ⁠Add Expense
+ 2.⁠ ⁠View All Expenses
+ 3.⁠ ⁠Total Expenses
+ 4.⁠ ⁠Category Summary
+ 5.⁠ ⁠Exit
 
-Follow prompts to add expenses or view summaries.
+ #1.Add Expense
 
-# Code Details
-expense_tracker.py: Main script. All features are implemented in this file.
+Enter:
+	•	Amount
+	•	Category (food, travel, shopping, etc.)
+	•	Short description
 
-add_expense(): Adds a new expense entry with amount and category.
+ #2.View All Expenses
 
-view_expenses(): Displays all recorded expenses in a list.
+Shows the full list of added expenses.
 
-total_expenses(): Calculates and prints the total amount spent
+ #3.Total Expenses
 
-category_summary(): Shows total expenses grouped by category.
+Displays total money spent.
+
+ #4.⁠Category Summary
+
+Shows spending grouped by category.
+
+ #5.⁠Exit
+
+Closes the program.
+
+⸻
+
+ #⁠Sample Output
+
+==== Expense Tracker ====
+ 1.⁠ ⁠Add Expense
+ 
+ 2.⁠ ⁠View All Expenses
+ 
+ 3.⁠ ⁠Total Expenses
+ 
+ 4.⁠ ⁠Category Summary
+ 
+ 5.⁠ ⁠Exit
+ 
+Enter choice: 1
+
+Enter amount: 150
+
+Enter category: Food
+
+Enter description: Sandwich
+
+Expense Added Successfully!
+
+
+⸻
+
+#⁠Screenshots
+
+
+
 
 
 
