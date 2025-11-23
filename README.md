@@ -20,7 +20,7 @@ Expense Tracker is a simple Python console application designed to help users ef
 ## Steps to Install & Run the Project
 1. Download or clone the repository from GitHub:
    ```
-   
+   https://github.com/Sanjay2528/expense-tracker.git
    ```
 2. Navigate into the project directory:
    ```
