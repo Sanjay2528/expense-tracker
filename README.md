@@ -18,7 +18,7 @@ Python 3.x (no additional libraries required)
 Clone the repository
 
 bash
-git clone https://github.com/yourusername/python-expense-tracker.git
+git clone 
 Navigate to the project directory
 
 bash
