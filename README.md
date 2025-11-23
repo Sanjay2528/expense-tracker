@@ -7,7 +7,7 @@ This project is a simple command-line Expense Tracker that allows users to recor
 
 This project is developed as part of the Introduction to Problem Solving & Programming course to apply Python basics to a real-world scenario.
 
-⸻
+
 
  #Problem Definition
 
@@ -19,7 +19,7 @@ People regularly perform small cash or digital transactions, but do not have an 
 
 The absence of a simple tracking system leads to poor financial awareness.
 
-⸻
+
 
  #⁠Objectives
 
@@ -34,7 +34,7 @@ The main objectives of this project are:
   
 	•	To help users understand and manage their spending habits
 
-⸻
+
 
  #⁠Features
 	•	Add new expense with amount, category and description
@@ -47,13 +47,13 @@ The main objectives of this project are:
   
 	•	Simple and clean command-line menu
 
-⸻
+
 
  #⁠Requirements
 	•	Python 3.x
 	•	No external libraries required
 
-⸻
+
 
  #Setup Instructions
 
@@ -72,7 +72,7 @@ cd expense-tracker
 python expenses_tracker.py
 
 
-⸻
+
 
  #⁠Folder Structure
 
@@ -93,7 +93,7 @@ expense-tracker/
 │     ├── screenshot2.png
 
 
-⸻
+
 
  #⁠How to Use the Program
 
@@ -155,9 +155,6 @@ Enter description: Sandwich
 Expense Added Successfully!
 
 
-⸻
-
-#⁠Screenshots
 
 
 
