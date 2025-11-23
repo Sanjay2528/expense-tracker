@@ -1,7 +1,3 @@
-Here is a complete **README.md** file for your Expense Tracker project, covering every required section:
-
-***
-
 # Expense Tracker
 
 ## Overview
